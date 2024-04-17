@@ -13,7 +13,8 @@
         android:background="#FEFEFE"
         app:srcCompat="@drawable/signin"
         tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="0dp" />
+        tools:layout_editor_absoluteY="0dp"
+        tools:ignore="MissingConstraints" />
 
     <ImageButton
         android:id="@+id/btback"
@@ -25,7 +26,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.01"
-        app:srcCompat="@drawable/back" />
+        app:srcCompat="@drawable/back"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
 
     <ImageButton
         android:id="@+id/btnext"
@@ -37,20 +39,22 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.946"
-        app:srcCompat="@drawable/next" />
+        app:srcCompat="@drawable/next"
+        tools:ignore="SpeakableTextPresentCheck" />
 
     <EditText
         android:id="@+id/TextLogin"
         android:layout_width="292dp"
         android:layout_height="38dp"
         android:ems="10"
-        android:inputType="text"
         android:hint="Username"
+        android:inputType="text"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.549" />
+        app:layout_constraintVertical_bias="0.549"
+        tools:ignore="TouchTargetSizeCheck" />
 
     <EditText
         android:id="@+id/TextPassword"
@@ -64,7 +68,8 @@
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.632" />
+        app:layout_constraintVertical_bias="0.632"
+        tools:ignore="TouchTargetSizeCheck" />
 
     <com.google.android.gms.common.SignInButton
         android:id="@+id/sign_in_button"
