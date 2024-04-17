@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/signUpNext"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#FEFEFE"
+        app:srcCompat="@drawable/signupnext"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp"
+        tools:ignore="MissingConstraints" />
+
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="187dp"
+        android:layout_height="45dp"
+        android:prompt="@string/spinner_prompt"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.635"
+        tools:ignore="HardcodedText,MissingConstraints" />
+
+
+
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.54"
+        app:layout_constraintHorizontal_bias="0.500">
+
+
+        <RadioButton
+            android:id="@+id/selectYear1"
+            android:layout_width="44dp"
+            android:layout_height="38dp"
+            android:text="1"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="122dp"
+            tools:layout_editor_absoluteY="375dp" />
+
+        <RadioButton
+            android:id="@+id/selectYear2"
+            android:layout_width="44dp"
+            android:layout_height="38dp"
+            android:text="2"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="183dp"
+            tools:layout_editor_absoluteY="375dp" />
+
+        <RadioButton
+            android:id="@+id/selectYear3"
+            android:layout_width="44dp"
+            android:layout_height="38dp"
+            android:text="3"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="244dp"
+            tools:layout_editor_absoluteY="375dp" />
+
+    </RadioGroup>
+
+    <ImageButton
+        android:id="@+id/btnext"
+        android:layout_width="158dp"
+        android:layout_height="81dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.933"
+        app:srcCompat="@drawable/next"
+        android:contentDescription="TODO" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

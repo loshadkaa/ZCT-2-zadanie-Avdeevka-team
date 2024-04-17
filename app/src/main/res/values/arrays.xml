@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="spinner_values">
+        <item>Hosp.Informatika</item>
+        <item>Int.Systemy</item>
+        <item>Informatika-KB</item>
+    </string-array>
+</resources>
+
+

@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "461157206760",
+    "project_id": "tuke-aid",
+    "storage_bucket": "tuke-aid.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:461157206760:android:48dfc4d8eb1fbd4ba3575d",
+        "android_client_info": {
+          "package_name": "com.example.tuke_aid"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "461157206760-1sccjh1d4se7nfhi4p8v4j9r4lvh8bok.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.tuke_aid",
+            "certificate_hash": "6c298e2a22ca96bedeb464f44950f017ced3e69f"
+          }
+        },
+        {
+          "client_id": "461157206760-uh703pvi4bujuml1aejjipr5jv13vmfk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyANNIblU3_2eUr1kYrGQLO5VATxDtE1LZE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "461157206760-uh703pvi4bujuml1aejjipr5jv13vmfk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddNews">
+
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FEFEFE"
+        app:srcCompat="@drawable/newsback" />
+
+    <EditText
+        android:id="@+id/newsTextInput"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="70dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="410dp"
+        android:layout_marginEnd="65dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="215dp"
+        android:gravity="top"
+        android:hint="Enter news text here"
+        android:inputType="textMultiLine"
+        android:minLines="4" />
+
+    <EditText
+        android:id="@+id/newsTitleInput"
+        android:layout_width="300dp"
+        android:layout_height="56dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="69dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="273dp"
+        android:layout_marginEnd="66dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="468dp"
+        android:gravity="top"
+        android:hint="Enter the title"
+        android:inputType="textMultiLine"
+        android:minLines="1"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <ImageButton
+        android:id="@+id/btback"
+        android:layout_width="135dp"
+        android:layout_height="60dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="230dp"
+        android:layout_marginBottom="38dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.942"
+        app:srcCompat="@drawable/btpf"
+        android:importantForAccessibility="no" />
+
+    <ImageButton
+        android:id="@+id/sendEmailButton"
+        android:layout_width="140dp"
+        android:layout_height="72dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="62dp"
+        android:layout_marginBottom="33dp"
+        app:srcCompat="@drawable/add"
+        tools:ignore="ContentDescription,SpeakableTextPresentCheck" />
+
+
+</RelativeLayout>
